@@ -1,0 +1,20 @@
+
+
+GET http://localhost:8080/people
+
+###
+GET http://localhost:8080/people/2
+
+###
+POST http://localhost:8080/people/all?email=robertrobert.com&password=
+
+
+###
+POST http://localhost:8080/people
+Content-Type: application/json
+
+{
+    "email":"robert@gmail.com",
+    "password":"castellanos12"
+}
+
